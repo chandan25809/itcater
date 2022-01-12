@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import 'antd/dist/antd.min.css';
+import 'antd/dist/antd.css';
 
 import AppHeader from './components/common/header';
 import AppFooter from './components/common/footer';
