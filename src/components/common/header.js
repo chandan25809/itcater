@@ -51,7 +51,7 @@ function AppHeader() {
               <Link href="#about" title="About" />
               <Link href="#feature" title="Features" />
               <Link href="#works" title="How it works" />
-              <Link href="#pricing" title="careers" />
+              <Link href="#pricing" title="Careers" />
               <Link href="#contact" title="Contact" />
             </Anchor>
           </Drawer>
