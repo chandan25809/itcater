@@ -69,6 +69,9 @@ header
   right: 0;
   z-index: 999;
 }
+.ant-drawer-content-wrapper{
+  width: 60%!important;
+}
 
 .header {
   display: flex;
