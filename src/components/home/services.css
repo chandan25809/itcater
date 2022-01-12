@@ -1,0 +1,167 @@
+.main-aboutus {
+    
+    padding: 0 100px;
+}
+.main-aboutus  img {
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.main-aboutus  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+    
+    font-weight: 200;
+}
+.main-aboutus  h1 span {
+    font-size: 71px;
+    color: darkBlue;
+    font-family: "Merriweather", serif;
+}
+.main-aboutus .who-we-are, .main-aboutus .about-dental-industry {
+    display: flex;
+    margin: 40px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-aboutus .who-we-are .aboutus-text h2, .main-aboutus .about-dental-industry .aboutus-text h2 {
+    padding: 10px 0;
+    font-weight: 600;
+    color: #455a64;
+}
+.main-aboutus .who-we-are .aboutus-text span, .main-aboutus .about-dental-industry .aboutus-text span {
+    font-size: 16px;
+    line-height: 26px;
+}
+.who-we-are img {
+    width: 500px;
+    margin: 20px 40px;
+    
+}
+.about-dental-industry img {
+    width: 500px;
+    margin: 20px 40px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+.main-aboutus {
+    padding: 0 40px;
+}
+.main-aboutus  h1 {
+    font-size: 22px;
+    font-weight: 200;
+}
+.main-aboutus  h1 span {
+    font-size: 67px;
+}
+.main-aboutus .who-we-are .aboutus-text h2, .main-aboutus .about-dental-industry .aboutus-text h2 {
+    padding: 10px 0;
+    font-weight: 600;
+}
+.main-aboutus .who-we-are .aboutus-text span, .main-aboutus .about-dental-industry .aboutus-text span {
+    font-size: 17px;
+    line-height: 22px;
+}
+.who-we-are img {
+    width: 40%;
+}
+}
+@media only screen and (max-width: 980px) {
+.main-aboutus {
+    padding: 0 20px;
+}
+.main-aboutus  h1 {
+    font-size: 20px;
+    font-weight: 200;
+}
+.main-aboutus  h1 span {
+    font-size: 62px;
+}
+.main-aboutus .who-we-are img, .main-aboutus .about-dental-industry img {
+    width: 35%;
+}
+.main-aboutus .who-we-are .aboutus-text h2, .main-aboutus .about-dental-industry .aboutus-text h2 {
+    padding: 10px 0;
+    font-weight: 600;
+}
+.main-aboutus .who-we-are .aboutus-text span, .main-aboutus .about-dental-industry .aboutus-text span {
+    font-size: 17px;
+    line-height: 20px;
+}
+.who-we-are img {
+    width: 35%;
+}
+}
+@media only screen and (max-width: 760px) {
+.main-aboutus {
+    padding: 0 17px;
+}
+.main-aboutus  img {
+    width: 80%;
+}
+.main-aboutus  h1 {
+    font-size: 17px;
+    font-weight: 200;
+}
+.main-aboutus  h1 span {
+    font-size: 40px;
+}
+.main-aboutus .who-we-are img, .main-aboutus .about-dental-industry img {
+    display: none;
+}
+.main-aboutus .who-we-are .aboutus-text h2, .main-aboutus .about-dental-industry .aboutus-text h2 {
+    padding: 10px 0;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.main-aboutus .who-we-are .aboutus-text span, .main-aboutus .about-dental-industry .aboutus-text span {
+    font-size: 17px;
+    line-height: 26px;
+}
+.who-we-are img {
+    display: none;
+}
+}
+
+/* Animations */
+@keyframes slideInFromLeft {
+0% {
+    transform: translateX(-100%);
+}
+
+100% {
+    transform: translateX(0);
+}
+}
+
+@keyframes slideInFromRight {
+0% {
+    transform: translateX(100%);
+}
+
+100% {
+    transform: translateX(0);
+}
+}
+
+@keyframes slideInFromTop {
+0% {
+    transform: translateY(-100%);
+}
+
+100% {
+    transform: translateX(0);
+}
+}
+
+@keyframes slideInFromBottom {
+0% {
+    transform: translateY(100%);
+}
+
+100% {
+    transform: translateX(0);
+}
+}
